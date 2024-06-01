@@ -20,7 +20,7 @@ void bubblesrt()
     char input[25][50];
     char temp_hold[50];
     
-    printf("How many strings would you like to sort?: ");
+    printf("How many strings would you like to sort? (Max 25): ");
     scanf("%d", &string_Number);
     printf("\nNumber of Strings: %d", string_Number);
     
